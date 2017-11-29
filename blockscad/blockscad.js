@@ -384,8 +384,11 @@ Blockscad.init = function() {
   $("#examples_box").click({msg: "box.xml"}, Blockscad.showExample);
   $("#examples_linear_extrude").click({msg: "linear_extrude.xml"}, Blockscad.showExample);
   $("#examples_rotate_extrude").click({msg: "rotate_extrude.xml"}, Blockscad.showExample);
-  $("#examples_cube_with_cutouts").click({msg: "cube_with_cutouts.xml"}, Blockscad.showExample);
-  $("#examples_anthias_fish").click({msg: "anthias_fish.xml"}, Blockscad.showExample);
+  $("#examples_cube_with_cutouts").click({msg: "scatola_parametrica.xml"}, Blockscad.showExample);
+  $("#torre_cilindrica").click({msg: "torre_cilindrica.xml"}, Blockscad.showExample);
+  $("#tetto_coppi").click({msg: "tetto_coppi.xml"}, Blockscad.showExample);  
+  $("#muro_mattoni").click({msg: "muro_mattoni.xml"}, Blockscad.showExample);  
+  $("#rosone_parametrico").click({msg: "rosone_parametrico.xml"}, Blockscad.showExample);
   $("#examples_hulled_loop_sun").click({msg: "hulled_loop_sun.xml"}, Blockscad.showExample);
   $("#examples_sine_function_with_loop").click({msg: "sine_function_with_loop.xml"}, Blockscad.showExample);
   $("#examples_trefoil_knot_param_eq").click({msg: "trefoil_knot_param_eq.xml"}, Blockscad.showExample);

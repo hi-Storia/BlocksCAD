@@ -100,7 +100,7 @@ BSUtils.getLang = function() {
     }
 
     // Default to English.
-    else lang = 'en';
+    else lang = 'it';
   }
 
   Blockscad.pLang = lang;

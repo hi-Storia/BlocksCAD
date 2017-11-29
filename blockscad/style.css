@@ -544,3 +544,75 @@ input.search:focus {
     margin-right: auto;
     margin-left: auto;
 }
+/* hi-storia riqua */
+#top-navigation-bar {
+    background: #fff;
+    box-shadow: 0px 3px 3px rgba(0,0,0,0.2);
+	border: medium none;
+	min-height: 54px;
+}
+.titlesite{
+font-family: "Montserrat", sans-serif;
+font-weight:bold;
+    font-size: 18px;
+	letter-spacing:-0.5px;
+	color: #037074;
+    /*color: #39b0b6;*/
+    margin: 5px;
+    vertical-align: middle;
+	display: inline-block;
+}
+.titlesite span{
+	font-size:11px;
+	color: #bbb;
+}
+.img-logo {
+    max-height: 50px;
+    vertical-align: middle;
+    padding-top: 4px;
+    padding-right: 6px;
+}
+.navbar-narrow{background:#e8edf1;border: medium none;}
+.navbar-nav>li>a {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+}
+#editView{
+    padding-top: 6px;
+    background: #e8edf1;
+}
+.input-group, #project-name {
+    display: inline-block;
+    min-width: 400px;
+    vertical-align: middle;
+    margin-top: 3px;
+	margin-left: 20px;
+}
+.nav-pills>li>a {
+    border-radius: 0px !important;
+    background: none !important;
+}
+.nav-pills>li {
+    float: left;
+    border: medium none;
+    border-radius: 0 !important;
+    padding: 7px 10px;
+    margin: 0;
+}
+.nav-pills>li.active {
+	background-color: #39b0b6;
+}
+.nav-pills>li.active a {
+	color: #fff !important;
+}
+.nav-pills>li a {
+	color: #39b0b6;
+}
+.resizableDiv {
+    border-style: solid;
+    border-width: 1px 1px 4px 4px;
+    border-color: #cccccc;
+}
+#renderPane{
+border:medium none;
+}
