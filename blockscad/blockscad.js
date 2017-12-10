@@ -380,18 +380,20 @@ Blockscad.init = function() {
   // and be sure to put the name of the example file in the msg field.  The xml
   // file should be saved in the "examples" folder.
 
-  $("#examples_torus").click({msg: "torus.xml"}, Blockscad.showExample);
-  $("#examples_box").click({msg: "box.xml"}, Blockscad.showExample);
-  $("#examples_linear_extrude").click({msg: "linear_extrude.xml"}, Blockscad.showExample);
+  $("#forte_merlatura").click({msg: "forte_merlatura.xml"}, Blockscad.showExample);
+  $("#scalinata").click({msg: "scalinata.xml"}, Blockscad.showExample);
+  $("#obelisco").click({msg: "obelisco.xml"}, Blockscad.showExample);
   $("#examples_rotate_extrude").click({msg: "rotate_extrude.xml"}, Blockscad.showExample);
   $("#examples_cube_with_cutouts").click({msg: "scatola_parametrica.xml"}, Blockscad.showExample);
   $("#torre_cilindrica").click({msg: "torre_cilindrica.xml"}, Blockscad.showExample);
   $("#tetto_coppi").click({msg: "tetto_coppi.xml"}, Blockscad.showExample);  
   $("#muro_mattoni").click({msg: "muro_mattoni.xml"}, Blockscad.showExample);  
+  $("#muro_mattoni_base").click({msg: "muro_mattoni_base.xml"}, Blockscad.showExample);  
   $("#rosone_parametrico").click({msg: "rosone_parametrico.xml"}, Blockscad.showExample);
+  $("#colonnato").click({msg: "colonnato.xml"}, Blockscad.showExample);
   $("#examples_hulled_loop_sun").click({msg: "hulled_loop_sun.xml"}, Blockscad.showExample);
-  $("#examples_sine_function_with_loop").click({msg: "sine_function_with_loop.xml"}, Blockscad.showExample);
-  $("#examples_trefoil_knot_param_eq").click({msg: "trefoil_knot_param_eq.xml"}, Blockscad.showExample);
+  $("#colonna_tortile").click({msg: "colonna_tortile.xml"}, Blockscad.showExample);
+  $("#colonna_tortile_semplice").click({msg: "colonna_tortile_semplice.xml"}, Blockscad.showExample);
 
   // to get sub-menus to work with bootstrap 3 navbar
   $(function(){

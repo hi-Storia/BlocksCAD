@@ -553,7 +553,7 @@ Blockly.Css.CONTENT = [
   '.blocklyTreeLabel {',
     'cursor: default;',
     'font-family: sans-serif;',
-    'font-size: 16px;',
+    'font-size: 13px;',
     'padding: 0 3px;',
     'vertical-align: middle;',
     'color: #fff',
